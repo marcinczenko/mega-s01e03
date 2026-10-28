@@ -31,3 +31,7 @@ the booking-v3 hint issue automatically.
 Sources: `src/lib/kb/causes.ts`, `src/lib/kb/locales.ts`, tenant JSON, report JSON,
 `desk-notes.json`, and the rendered CauseTable and QueueTimeline. See the signed review
 at `src/routes/kb/incidents/4471-review/+page.svx` and its rendered HTML.
+
+## Engineering outcome
+
+Source: https://hq.mega.dev/challenges/what-it-shows, engineering update observed after step one was accepted. The desk reports #4471 closed on 5 October 2026. Parser fixed: `fix(dates): parse dd/mm for eu locales`. Closing as completed based on the course engineering update. This is not an independent production verification; the five timing anomalies remain documented as historical evidence.

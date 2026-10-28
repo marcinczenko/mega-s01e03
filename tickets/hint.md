@@ -28,3 +28,7 @@ export. Track and verify this fix separately from the shared parser.
 Sources: `src/lib/kb/causes.ts` (`DATE_HINT` and `causeOf`), `src/lib/kb/locales.ts`,
 tenant and report JSON, and the rendered CauseTable. See the signed review at
 `src/routes/kb/incidents/4471-review/+page.svx` and its rendered HTML.
+
+## Engineering outcome
+
+Source: https://hq.mega.dev/challenges/what-it-shows, engineering update observed after step one was accepted. The desk reports #4471 closed on 5 October 2026. Hint won’t fix: booking-v3 form retired. Closing as not planned. The form was retired; this does not mean the hint code was fixed.
